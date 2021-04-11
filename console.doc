@@ -1,0 +1,119 @@
+2
+2
+"hi"
+"hi"
+"2"
+"2"
+var name = "tariq";
+undefined
+name
+"tariq"
+name.length
+5
+name.toUpperCase
+ƒ toUpperCase() { [native code] }
+name.to
+undefined
+name.toUpperCase()
+"TARIQ"
+parseInt(2)
+2
+parseInt("2")
+2
+2+3
+5
+5+2
+7
+5-2
+3
+5*7
+35
+8/3
+2.6666666666666665
+%
+VM509:1 Uncaught SyntaxError: Unexpected token '%'
+21%
+VM517:1 Uncaught SyntaxError: Unexpected end of input
+21%2
+1
+"4"/"6"
+0.6666666666666666
+"hello"/"hi"
+NaN
+1/0
+Infinity
+3=3
+VM618:1 Uncaught SyntaxError: Invalid left-hand side in assignment
+3===3
+true
+if(3>2){console.log("hello")}
+VM752:1 hello
+undefined
+if(3>5){console.log("hi")} else if(3<2){console.log("hello")} else{console.log("tariq")}
+VM1100:1 tariq
+undefined
+var name = "hap"
+undefined
+var name = "My name"; switch(name) { case "My name": console.log("Condition 1"); break; case "my Name": console.log("Condition 2"); break; default: console.log("None of the conditions are true"); }
+VM1217:1 Condition 1
+undefined
+var name = "My name"; switch(name) { case "My ame": console.log("Condition 1"); break; case "my Name": console.log("Condition 2"); break; default: console.log("None of the conditions are true"); }
+VM1222:1 None of the conditions are true
+undefined
+for(var i = 0; i<10; i++){console.log(i)}
+VM1350:1 0
+VM1350:1 1
+VM1350:1 2
+VM1350:1 3
+VM1350:1 4
+VM1350:1 5
+VM1350:1 6
+VM1350:1 7
+VM1350:1 8
+VM1350:1 9
+undefined
+for(var i = 2; i<24; i=i+2){console.log(i)}
+VM1488:1 2
+VM1488:1 4
+VM1488:1 6
+VM1488:1 8
+VM1488:1 10
+VM1488:1 12
+VM1488:1 14
+VM1488:1 16
+VM1488:1 18
+VM1488:1 20
+VM1488:1 22
+undefined
+for(var i = 10; i<0; i--){console.log(i)}
+undefined
+for(var i = 10; i>0; i--){console.log(i)}
+VM1621:1 10
+VM1621:1 9
+VM1621:1 8
+VM1621:1 7
+VM1621:1 6
+VM1621:1 5
+VM1621:1 4
+VM1621:1 3
+VM1621:1 2
+VM1621:1 1
+undefined
+var friends = ["lina","nedka"]
+undefined
+friends
+(2) ["lina", "nedka"]
+friends.push("rafik")
+3
+friends
+(3) ["lina", "nedka", "rafik"]
+friends[2]
+"rafik"
+friends.length
+3
+function circumference(radius){var circumference = 2*3.14*radius; return circumference}
+undefined
+circumference
+ƒ circumference(radius){var circumference = 2*3.14*radius; return circumference}
+circumference(1)
+6.28
